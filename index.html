@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Playlist you love is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Support</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" src="covers/image1.jpg">
+                    <span class="songName">Kabira</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="0" class="fa-solid songItemPlay fa-play"></i>
+                        </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" src="covers/image2.jpg">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp">04:03 <i id="1" class="fa-solid songItemPlay fa-play"></i>
+                        </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" src="covers/image3.jpg">
+                    <span class="songName">Soulmate</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id="1" class="fa-solid songItemPlay fa-play"></i>
+                        </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" src="covers/image4.jpg">
+                    <span class="songName">Saware</span>
+                    <span class="songlistplay"><span class="timestamp">05:21 <i id="1" class="fa-solid songItemPlay fa-play"></i>
+                        </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" src="covers/image5.jpg">
+                    <span class="songName">Choo lo</span>
+                    <span class="songlistplay"><span class="timestamp">03:53 <i id="1" class="fa-solid songItemPlay fa-play"></i>
+                        </span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <div class="progress-container">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+          </div>
+          
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="44px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/41aa49990e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

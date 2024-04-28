@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Satisfy&display=swap');
+
+body {
+    background-color: beige;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Satisfy', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 36px;
+    background-image: url('star.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 70px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.progress-container {
+    position: relative;
+  }
+  
+.songItemContainer {
+    margin-top: 50px;
+}
+
+.songItem {
+    height: 60px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 13px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 200%;
+    border-radius: 32px;
+}
+
+.songItem img {
+    width: 47px;
+    margin: 0 25px;
+    border-radius: 36px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+.timestamp {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 9vw;
+    font-family: 'Satisfy', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in
+}
+
